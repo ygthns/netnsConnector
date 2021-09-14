@@ -13,8 +13,8 @@ This script creates a network namespace and then with the help of the veth, it c
 | BRIDGE_IP            | yes      |         | $4                        | IP of the bridge,don't forget subnet |
 
 ## Example Command
-./netnsConnector.sh namespace1 15.4.0.11/24 br1 15.4.0.10/24 && \
-./netnsConnector.sh namespace2 15.4.0.12/24 br1 15.4.0.10/24 && \
+./netnsConnector.sh namespace1 15.4.0.11/24 br1 15.4.0.10/24  \
+./netnsConnector.sh namespace2 15.4.0.12/24 br1 15.4.0.10/24  \
 ./netnsConnector.sh namespace3 15.4.0.13/24 br1 15.4.0.10/24
 
 Now this three namespaces are able to communicate with each others.

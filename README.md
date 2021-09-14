@@ -17,4 +17,4 @@ This script creates a network namespace and then with the help of the veth, it c
 ./netnsConnector.sh namespace2 15.4.0.12/24 br1 15.4.0.10/24  \
 ./netnsConnector.sh namespace3 15.4.0.13/24 br1 15.4.0.10/24
 
-Now this three namespaces are able to communicate with each others.
+Now these three namespaces are able to communicate with each others.
